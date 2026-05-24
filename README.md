@@ -1,46 +1,75 @@
 # MaklaTime
+
 Système Web de Gestion de Buvette Universitaire
 Projet réalisé dans le cadre du module :
 Développement Web – Contrôle Pratique
 Université Chouaib Doukkali – ENSA El Jadida
 2ITE S2 – Année Universitaire 2025-2026
 
+---
+
 # Description du Projet
+
 MaklaTime est une application web moderne permettant la gestion d’une buvette universitaire à travers une architecture Full Stack basée sur ReactJS et Laravel API REST.
+
 L’application permet :
+
 * la consultation des produits disponibles
 * la gestion des commandes étudiantes
 * l’authentification sécurisée multi-rôles
 * la gestion complète des produits et catégories via un dashboard administrateur
+
 Le projet respecte la séparation Front-End / Back-End à travers des requêtes HTTP sécurisées via Axios.
 
+---
+
 # Technologies Utilisées
+
 ## Front-End
+
 * ReactJS
 * Vite
 * Axios
 * React Router
 * Bootstrap / CSS
+
 ## Back-End
+
 * Laravel 13
 * Laravel Sanctum
 * API REST
 * Eloquent ORM
+
 ## Base de Données
-*  MySQL
+
+* SQLite / MySQL
+
+---
 
 # Fonctionnalités Principales
+
 ## Authentification
+
 * Inscription et connexion sécurisées
 * Gestion des rôles :
+
   * Admin
   * User
+
+---
+
 ## Espace Utilisateur
+
 * Consultation du catalogue
 * Recherche de produits
 * Ajout au panier
 * Passage de commandes
+  
+
+---
+
 ## Espace Administrateur
+
 * Dashboard administrateur
 * Gestion des produits (CRUD)
 * Gestion des catégories (CRUD)
@@ -48,8 +77,11 @@ Le projet respecte la séparation Front-End / Back-End à travers des requêtes 
 * Gestion des utilisateurs
 * Gestion du stock et disponibilité
 
+---
 
 # Architecture du Projet
+
+```bash id="d9g0gf"
 maklaTime/
 │
 ├── frontend/
@@ -70,9 +102,13 @@ maklaTime/
 └── README.md
 ```
 
+---
+
 # Installation et Lancement du Projet
 
 # 1. Cloner le Repository
+
+```bash id="yr4gr4"
 git clone <repository-link>
 ```
 
@@ -270,4 +306,5 @@ Projet développé dans le cadre du contrôle pratique du module Développement 
 
 Université Chouaib Doukkali – ENSA El Jadida
 2ITE S2 – 2025/2026
+
 
