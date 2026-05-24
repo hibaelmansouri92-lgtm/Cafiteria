@@ -303,7 +303,10 @@ Compatible avec :
 # Équipe
 
 Projet développé dans le cadre du contrôle pratique du module Développement Web.
-
+Réalisé par:
+HIBA EL MANSOURI
+Mohammed Amine Haida
+Roukaya Oubaid
 Université Chouaib Doukkali – ENSA El Jadida
 2ITE S2 – 2025/2026
 
