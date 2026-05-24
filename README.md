@@ -150,7 +150,7 @@ ou
 
 ```env id="6vjlwm"
 DB_CONNECTION=mysql
-DB_DATABASE=maklatime
+DB_DATABASE=buvette-universitaire
 DB_USERNAME=root
 DB_PASSWORD=
 ```
